@@ -43,7 +43,7 @@ function Home() {
         </div>
         {medicines.filter(medicine => {
           if (query === "") { return medicine; }
-          else if (medicine.name.toLowerCase().includes(query.toLowerCase()) || medicine.type.toLowerCase().includes(query.toLowerCase()) || medicine.packaging.toLowerCase().includes(query.toLowerCase())) {
+          else if (medicine.name.toLowerCase().includes(query.toLowerCase()) || medicine.type.toLowerCase().includes(query.toLowerCase())) {
             return medicine;
           }
           }).map((medicine) => (
