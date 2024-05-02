@@ -1,0 +1,27 @@
+.home {
+  margin: auto;
+  width: 600px;
+}
+.searchMedicine {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.medicines {
+    width: 100%;
+    border: 3px solid black;
+}
+.medicine {
+    display: grid;
+    width: 100%;
+    height: 53px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    grid-template-columns: 50px 150px 150px 150px 100px;
+}
+p {
+    width: 100%;
+    padding: 16px 0 16px;
+    border-right: 1px solid black;
+    font-weight: 500;
+}
